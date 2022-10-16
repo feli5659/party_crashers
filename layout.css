@@ -144,28 +144,28 @@ p {
 .sang_2 > div.verse_2:nth-child(7) {
   grid-row: 3;
   grid-column: 2;
-  height: 60px;
+  height: 80px;
 }
 
 .sang_2 > div.pre-chorus:nth-child(8) {
   grid-row: 3;
   grid-column: 2;
-  height: 60px;
-  margin-top: 60px;
+  height: 80px;
+  margin-top: 80px;
 }
 
 .sang_2 > div.chorus:nth-child(9) {
   grid-row: 3;
   grid-column: 2;
-  height: 60px;
-  margin-top: 120px;
+  height: 80px;
+  margin-top: 160px;
 }
 
 .sang_2 > div.post-chorus:nth-child(10) {
   grid-row: 3;
   grid-column: 2;
-  height: 60px;
-  margin-top: 190px;
+  height: 89px;
+  margin-top: 220px;
 }
 
 .sang_2 > .bridge {
@@ -222,7 +222,269 @@ p {
 .sang_3 > div:nth-child(7) {
   grid-row: 3;
   grid-column: 2;
+  height: 80px;
+}
+.sang_3 > div.bridge:nth-child(8) {
+  grid-column: 2;
+  grid-row: 3;
+  margin-top: 80px;
+}
+
+.sang_3 > div.verse:nth-child(9) {
+  height: 200px;
+  grid-column: 2;
+  grid-row: 4;
+}
+
+.sang_3 > div:nth-child(10) {
+  grid-column: 2;
+  grid-row: 4;
+  margin-top: 200px;
 }
 
 /* Sang 4 */
 
+.sang_4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.sang_4 > div.chorus:nth-child(2) {
+  grid-column: 1;
+}
+
+.sang_4 > div:nth-child(3) {
+  grid-column: 1;
+}
+
+.sang_4 > div:nth-child(4) {
+  grid-column: 2;
+  grid-row: 1;
+  height: 80px;
+}
+
+.sang_4 > div.bridge:nth-child(5) {
+  grid-column: 2;
+  grid-row: 1;
+  margin-top: 80px;
+}
+
+.sang_4 > div.verse:nth-child(7) {
+  grid-column: 2;
+  grid-row: 2;
+  margin-top: 80px;
+}
+
+.sang_4 > div.chorus:nth-child(6) {
+  grid-column: 2;
+  grid-row: 2;
+  height: 80px;
+}
+
+.sang_4 > div:nth-child(8) {
+  height: 80px;
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.sang_4 > div.bridge:nth-child(9) {
+  grid-column: 2;
+  grid-row: 3;
+  margin-top: 80px;
+  height: 80px;
+}
+
+.sang_4 > div:nth-child(10) {
+  grid-column: 2;
+  grid-row: 3;
+  margin-top: 160px;
+}
+
+/* Sang 5 */
+
+.sang_5 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.sang_5 > div:nth-child(2) {
+  grid-column: 1;
+}
+
+.sang_5 > div:nth-child(3) {
+  grid-column: 1;
+}
+
+.sang_5 > div:nth-child(4) {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.sang_5 > div:nth-child(5) {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.sang_5 > div:nth-child(6) {
+  grid-column: 2;
+  grid-row: 2;
+  margin-top: 80px;
+}
+
+.sang_5 > div.bridge:nth-child(7) {
+  grid-row: 3;
+  grid-column: 2;
+}
+
+.sang_5 > div:nth-child(8) {
+  grid-column: 2;
+  height: 80px;
+}
+
+/* Sang 6 */
+
+.sang_6 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.sang_6 > div:nth-child(2) {
+  grid-column: 1;
+}
+
+.sang_6 > div.verse:nth-child(3) {
+  grid-column: 1;
+}
+
+.sang_6 > div:nth-child(4) {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.sang_6 > div:nth-child(5) {
+  grid-column: 2;
+  grid-row: 1;
+  margin-top: 80px;
+}
+
+.sang_6 > div:nth-child(6) {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.sang_6 > div:nth-child(7) {
+  grid-column: 2;
+  grid-row: 2;
+  margin-top: 80px;
+}
+
+/* Sang 7 */
+
+.sang_7 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.sang_7 > div:nth-child(2) {
+  grid-column: 1;
+}
+
+.sang_7 > div:nth-child(3) {
+  grid-column: 1;
+}
+
+.sang_7 > div:nth-child(4) {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.sang_7 > div.verse_2:nth-child(5) {
+  grid-column: 2;
+  grid-row: 1;
+  margin-top: 168px;
+}
+
+.sang_7 > div:nth-child(6) {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.sang_7 > div:nth-child(7) {
+  grid-column: 2;
+  grid-row: 2;
+  margin-top: 80px;
+}
+
+.sang_7 > div.verse:nth-child(8) {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.sang_7 > div:nth-child(9) {
+  grid-column: 2;
+  grid-row: 3;
+  margin-top: 160px;
+}
+
+/* Sang 8 */
+
+.sang_8 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+}
+
+.sang_8 > div.verse:nth-child(2) {
+  grid-column: 1;
+  grid-row: 1;
+  margin-top: 170px;
+}
+
+.sang_8 > div:nth-child(3) {
+  grid-column: 1;
+}
+
+.sang_8 > div:nth-child(4) {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.sang_8 > div:nth-child(5) {
+  grid-column: 2;
+  grid-row: 1;
+  margin-top: 170px;
+}
+
+.sang_8 > div:nth-child(1) {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.sang_8 > div:nth-child(7) {
+  grid-column: 2;
+  grid-row: 2;
+  margin-top: 90px;
+}
+
+.sang_8 > div:nth-child(6) {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+/* Sang 9 */
+
+.sang_9 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 10px;
+}
