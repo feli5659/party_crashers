@@ -1,0 +1,228 @@
+/* --------- General Styles ------------ */
+* {
+  box-sizing: border-box;
+  /* ovenstående inkluderer padding og border i elementets totale højde og bredde */
+  background-color: gainsboro;
+
+  /* gapvariabler */
+  --space-s: 1rem;
+  --space-m: 2rem;
+  --space-l: 3rem;
+  --space-xl: 4rem;
+
+  /* Farvevariabler */
+  --pink: #ffe3f3;
+  --blue: #e3fffa;
+  --orange: #ffda9f;
+  --green: #e0ffc9;
+}
+
+h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.2rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-transform: capitalize;
+}
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.6rem;
+}
+
+.verse,
+.verse_2 {
+  background-color: var(--pink);
+  padding: 10px;
+}
+
+.verse p,
+.verse h2,
+.verse_2 p,
+.verse_2 h2 {
+  background-color: var(--pink);
+}
+.pre-chorus {
+  background-color: var(--blue);
+  padding: 10px;
+}
+
+.bridge {
+  background-color: var(--green);
+  padding: 10px;
+}
+.bridge p,
+.bridge h2 {
+  background-color: var(--green);
+}
+
+.pre-chorus p,
+.pre-chorus h2 {
+  background-color: var(--blue);
+}
+.chorus,
+.post-chorus {
+  background-color: var(--orange);
+  padding: 10px;
+}
+
+.chorus p,
+.chorus h2,
+.post-chorus p,
+.post-chorus h2 {
+  background-color: var(--orange);
+}
+
+/* 1 sang */
+.sang_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.sang_1 > div.pre-chorus:nth-child(2) {
+  grid-column: 1;
+  grid-row: 2;
+}
+.sang_1 > div.chorus:nth-child(3) {
+  grid-column: 1;
+  grid-row: 3;
+}
+.sang_1 > div.pre-chorus:nth-child(5) {
+  height: 80px;
+  grid-column: 2;
+  grid-row: 2;
+}
+.sang_1 > div.pre-chorus:nth-child(6) {
+  height: 80px;
+  grid-column: 2;
+  grid-row: 2;
+  margin-top: 160px;
+}
+
+.sang_1 > div.chorus:nth-child(7) {
+  height: 80px;
+  grid-column: 2;
+  grid-row: 2;
+  margin-top: 80px;
+}
+
+.sang_2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+/* sang 2 */
+
+.sang_2 > .div.verse_2:nth-child(2) {
+  grid-column: 1;
+}
+
+.sang_2 > .div.pre-chorus:nth-child(3) {
+  grid-column: 1;
+}
+
+.sang_2 > div.chorus:nth-child(4) {
+  grid-column: 1;
+}
+
+.sang_2 > div.post-chorus:nth-child(5) {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.sang_2 > div.verse:nth-child(6) {
+  grid-row: 2;
+  grid-column: 2;
+}
+
+.sang_2 > div.verse_2:nth-child(7) {
+  grid-row: 3;
+  grid-column: 2;
+  height: 60px;
+}
+
+.sang_2 > div.pre-chorus:nth-child(8) {
+  grid-row: 3;
+  grid-column: 2;
+  height: 60px;
+  margin-top: 60px;
+}
+
+.sang_2 > div.chorus:nth-child(9) {
+  grid-row: 3;
+  grid-column: 2;
+  height: 60px;
+  margin-top: 120px;
+}
+
+.sang_2 > div.post-chorus:nth-child(10) {
+  grid-row: 3;
+  grid-column: 2;
+  height: 60px;
+  margin-top: 190px;
+}
+
+.sang_2 > .bridge {
+  grid-column: 2;
+  grid-row: 4;
+}
+
+.sang_2 > div.chorus:nth-child(12) {
+  /* }: ; */
+  grid-column: 2;
+  grid-row: 4;
+  height: 60px;
+  margin-top: 195px;
+}
+
+.sang_2 > div.post-chorus:nth-child(13) {
+  grid-column: 2;
+  grid-row: 4;
+  height: 60px;
+  margin-top: 250px;
+}
+
+/* Sang 3 */
+
+.sang_3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.sang_3 > div:nth-child(2) {
+  grid-column: 1;
+}
+
+.sang_3 > div.verse_2:nth-child(3) {
+  grid-column: 1;
+}
+
+.sang_3 > div:nth-child(4) {
+  grid-column: 1;
+}
+
+.sang_3 > div.verse:nth-child(5) {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.sang_3 > div.verse_2:nth-child(6) {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.sang_3 > div:nth-child(7) {
+  grid-row: 3;
+  grid-column: 2;
+}
+
+/* Sang 4 */
+
