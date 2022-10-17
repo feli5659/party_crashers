@@ -709,3 +709,381 @@ a {
   grid-row: 2;
   margin-top: 170px;
 }
+
+/* SET LISTE 2  */
+
+/* Sang 11 - Signed Sealed Delivered */
+.sang_11 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.sang_11 > div.chorus:nth-child(2) {
+  grid-column: 1;
+}
+
+.sang_11 > div.post-chorus:nth-child(3) {
+  grid-column: 1;
+}
+
+.sang_11 > div.verse:nth-child(4) {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.sang_11 > div.chorus:nth-child(5) {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.sang_11 > div.chorus:nth-child(7) {
+  grid-column: 2;
+  grid-row: 3;
+  margin-top: 90px;
+}
+
+.sang_11 > div.post-chorus:nth-child(6) {
+  grid-row: 3;
+  grid-column: 2;
+}
+
+/* Sang 12 - Highest Ground */
+.sang_12 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.sang_12 > div.verse:nth-child(2) {
+  grid-column: 1;
+}
+
+.sang_12 > div.bridge:nth-child(3) {
+  grid-column: 1;
+}
+
+.sang_12 > div:nth-child(4) {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.sang_12 > div.verse:nth-child(5) {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+/* Sang 13 - Jump */
+
+.sang_13 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.sang_13 > div:nth-child(2) {
+  grid-column: 1;
+}
+
+.sang_13 > .pre-chorus {
+  grid-column: 1;
+}
+
+.sang_13 > div.chorus:nth-child(4) {
+  grid-column: 1;
+}
+
+.sang_13 > .sang_13 > div:nth-child(5) {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.sang_13 > div.verse:nth-child(6) {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.sang_13 > div:nth-child(7) {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.sang_13 > div.bridge:nth-child(8) {
+  grid-column: 2;
+  grid-row: 3;
+  margin-top: 100px;
+}
+
+.sang_13 > div.chorus:nth-child(9) {
+  grid-column: 2;
+  grid-row: 4;
+}
+
+.sang_13 > div.chorus:nth-child(10) {
+  grid-column: 2;
+  grid-row: 4;
+  margin-top: 100px;
+}
+
+/* Sang 14 -  Kom tilbage nu */
+
+.sang_14 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.sang_14 > div:nth-child(2),
+.sang_14 > div:nth-child(3),
+.sang_14 > div:nth-child(4) {
+  grid-column: 1;
+}
+
+.sang_14 > div.pre-chorus:nth-child(5) {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.sang_14 > div.chorus:nth-child(6) {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.sang_14 > div.verse:nth-child(7) {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.sang_14 > div:nth-child(8) {
+  grid-column: 2;
+  grid-row: 4;
+}
+
+.sang_14 > div.verse:nth-child(9) {
+  grid-column: 2;
+  grid-row: 4;
+  margin-top: 80px;
+}
+
+.sang_14 > div.pre-chorus:nth-child(10) {
+  grid-column: 2;
+  grid-row: 5;
+}
+
+.sang_14 > div.chorus:nth-child(11) {
+  grid-column: 2;
+  grid-row: 6;
+}
+
+.sang_14 > div.pre-chorus:nth-child(12) {
+  grid-column: 2;
+  grid-row: 7;
+}
+
+.sang_14 > div.chorus:nth-child(13) {
+  grid-column: 2;
+  grid-row: 8;
+}
+
+.sang_14 > div.chorus:nth-child(14) {
+  grid-column: 2;
+  grid-row: 9;
+}
+/* Sang 15 - Can't help falling in love */
+.sang_15 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.sang_15 > div:nth-child(2) {
+  grid-column: 1;
+}
+
+.sang_15 > div.chorus:nth-child(3) {
+  grid-column: 1;
+}
+
+.sang_15 > div:nth-child(4) {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.sang_15 > div.bridge:nth-child(5) {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.sang_15 > div:nth-child(6) {
+  grid-column: 2;
+  grid-row: 2;
+  margin-top: 80px;
+}
+
+/* Sang 16 - What's going on */
+
+.sang_16 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.sang_16 > div:nth-child(2) {
+  grid-column: 1;
+}
+
+.sang_16 > div.verse:nth-child(3) {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.sang_16 > div:nth-child(4) {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.sang_16 > div:nth-child(5) {
+  grid-column: 2;
+  grid-row: 2;
+  margin-top: 80px;
+}
+
+.sang_16 > div:nth-child(6) {
+  grid-column: 2;
+  grid-row: 2;
+  margin-top: 160px;
+}
+
+/* Sang 17 - De Vilde Kaniner*/
+
+.sang_17 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.sang_17 > div:nth-child(2) {
+  grid-column: 1;
+}
+
+.sang_17 > div:nth-child(3) {
+  grid-column: 1;
+}
+
+.sang_17 > div.post-chorus:nth-child(4) {
+  grid-column: 1;
+}
+
+.sang_17 > div:nth-child(5) {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.sang_17 > div:nth-child(6) {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.sang_17 > div.bridge:nth-child(7) {
+  grid-column: 2;
+  grid-row: 2;
+  margin-top: 80px;
+}
+
+.sang_17 > div.verse:nth-child(8) {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.sang_17 > div:nth-child(9) {
+  grid-column: 2;
+  grid-column: ;
+  grid-row: 4;
+}
+
+.sang_17 > div:nth-child(10) {
+  grid-column: 2;
+  grid-row: 4;
+  margin-top: 80px;
+}
+
+.sang_17 > div.bridge:nth-child(11) {
+  grid-column: 2;
+  grid-row: 4;
+  margin-top: 160px;
+}
+
+/* Sang 18 - Georgy Porgy - Toto */
+.sang_18 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.sang_18 > div:nth-child(2) {
+  grid-column: 1;
+}
+
+.sang_18 > div:nth-child(3) {
+  grid-column: 1;
+}
+
+.sang_18 > div:nth-child(4) {
+  grid-column: 1;
+}
+
+.sang_18 > div:nth-child(5) {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.sang_18 > div:nth-child(6) {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.sang_18 > div:nth-child(7) {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+/* Sang 19 - Jeg vil lade lyset brænde */
+.sang_19 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.sang_19 > div:nth-child(2) {
+  grid-column: 1;
+}
+
+.sang_19 > div:nth-child(3) {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.sang_19 > div:nth-child(4) {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.sang_19 > div:nth-child(5) {
+  grid-column: 2;
+  grid-row: 2;
+  margin-top: 80px;
+}
+
+.sang_19 > div:nth-child(6) {
+  grid-column: 2;
+  grid-row: 2;
+  margin-top: 160px;
+}
+
+/* sang 20 - Foolosophy - Jamiriqai */
+
+.sang_20 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
