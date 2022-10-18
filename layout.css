@@ -493,44 +493,38 @@ a {
 .sang_6 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
   gap: 10px;
 }
-.sang_6 > div.chorus:nth-child(1) {
+
+.sang_6 > div:nth-child(2) {
   grid-column: 1;
-  grid-row: 1;
-}
-.sang_6 > div.chorus:nth-child(2) {
-  grid-column: 1;
-  grid-row: 2;
 }
 
-.sang_6 > div.chorus:nth-child(3) {
-  grid-column: 1;
-  grid-row: 2;
-  margin-top: 280px;
+.sang_6 > div:nth-child(3) {
+  grid-column: 2;
+  grid-row: 1;
 }
 
 .sang_6 > div:nth-child(4) {
   grid-column: 2;
   grid-row: 1;
+  margin-top: 70px;
 }
-
-.sang_6 > div:nth-child(5) {
-  grid-column: 2;
-  grid-row: 1;
-  margin-top: 280px;
-}
-
-.sang_6 > div:nth-child(6) {
+.sang_6 > div.chorus:nth-child(5) {
   grid-column: 2;
   grid-row: 2;
+}
+
+.sang_6 > div.bridge:nth-child(6) {
+  grid-column: 2;
+  grid-row: 2;
+  margin-top: 60px;
 }
 
 .sang_6 > div:nth-child(7) {
   grid-column: 2;
   grid-row: 2;
-  margin-top: 110px;
+  margin-top: 160px;
 }
 
 /* Sang 7 */
@@ -997,7 +991,6 @@ a {
 
 .sang_17 > div:nth-child(9) {
   grid-column: 2;
-  grid-column: ;
   grid-row: 4;
 }
 
@@ -1086,4 +1079,68 @@ a {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px;
+}
+
+.sang_20 > div:nth-child(2) {
+  grid-column: 1;
+}
+
+.sang_20 > div:nth-child(3) {
+  grid-column: 1;
+}
+
+.sang_20 > div:nth-child(4) {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.sang_20 > div:nth-child(5) {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+/* Sang 21 - Mama mia */
+.sang_21 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.sang_21 > div.bridge:nth-child(2) {
+  grid-column: 1;
+}
+
+.sang_21 > div:nth-child(3) {
+  grid-column: 1;
+}
+
+.sang_21 > div:nth-child(4) {
+  grid-column: 1;
+}
+
+.sang_21 > div:nth-child(5) {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.sang_21 > div:nth-child(6) {
+  grid-column: 2;
+  grid-row: 1;
+  margin-top: 70px;
+}
+
+.sang_21 > div:nth-child(7) {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.sang_21 > div.chorus:nth-child(8) {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.sang_21 > div:nth-child(9) {
+  grid-column: 2;
+  grid-row: 3;
+  margin-top: 70px;
 }
