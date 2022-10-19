@@ -1175,3 +1175,65 @@ a {
   grid-row: 2;
   margin-top: 110px;
 }
+
+/* Sang 23 -  Shape of you */
+.sang_23 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.sang_23 > div.pre-chorus:nth-child(2) {
+  grid-column: 1;
+}
+
+.sang_23 > div:nth-child(3) {
+  grid-column: 1;
+}
+
+.sang_23 > div.post-chorus:nth-child(4) {
+  grid-column: 1;
+}
+
+.sang_23 > div.verse:nth-child(5) {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.sang_23 > div.pre-chorus:nth-child(6) {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.sang_23 > div:nth-child(7) {
+  grid-column: 2;
+  grid-row: 2;
+  margin-top: 70px;
+}
+
+.sang_23 > div.post-chorus:nth-child(8) {
+  grid-column: 2;
+  grid-row: 2;
+  margin-top: 140px;
+}
+
+.sang_23 > div.bridge:nth-child(9) {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.sang_23 > div.chorus:nth-child(10) {
+  grid-column: 2;
+  grid-row: 3;
+  margin-top: 120px;
+}
+
+.sang_23 > div.post-chorus:nth-child(11) {
+  grid-column: 2;
+  grid-row: 3;
+  margin-top: 180px;
+}
+
+.sang_23 > div.bridge:nth-child(12) {
+  grid-column: 2;
+}
