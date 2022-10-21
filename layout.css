@@ -1359,3 +1359,274 @@ a {
   grid-template-columns: 1fr 1fr;
   gap: 10px;
 }
+
+.sang_27 > div:nth-child(2) {
+  grid-column: 1;
+}
+
+.sang_27 > div:nth-child(3) {
+  grid-column: 1;
+}
+
+.sang_27 > div:nth-child(4) {
+  grid-column: 1;
+}
+
+.sang_27 > div.pre-chorus:nth-child(5) {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.sang_27 > div:nth-child(6) {
+  grid-column: 2;
+  grid-row: 1;
+  margin-top: 60px;
+}
+
+.sang_27 > div:nth-child(7) {
+  grid-column: 2;
+  grid-row: 1;
+  margin-top: 120px;
+}
+
+.sang_27 > div:nth-child(8) {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.sang_27 > div:nth-child(9) {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+/* Sang 28 - Tutti Frutti */
+.sang_28 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.sang_28 > div:nth-child(2) {
+  grid-column: 1;
+}
+
+.sang_28 > div:nth-child(3) {
+  grid-column: 1;
+}
+
+.sang_28 > div:nth-child(4) {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.sang_28 > div:nth-child(5) {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.sang_28 > div:nth-child(6) {
+  grid-column: 2;
+  grid-row: 2;
+  margin-top: 60px;
+}
+
+.sang_28 > div:nth-child(7) {
+  grid-column: 2;
+  grid-row: 2;
+  margin-top: 120px;
+}
+
+.sang_28 > div.chorus:nth-child(9) {
+  grid-column: 2;
+}
+
+/* Sang 29 - I wish */
+.sang_29 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.sang_29 > div:nth-child(2) {
+  grid-column: 1;
+}
+
+.sang_29 > div:nth-child(3) {
+  grid-column: 1;
+}
+
+.sang_29 > div.pre-chorus:nth-child(4) {
+  grid-column: 1;
+}
+
+.sang_29 > div:nth-child(5) {
+  grid-column: 1;
+}
+
+.sang_29 > div.verse:nth-child(6) {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.sang_29 > div.pre-chorus:nth-child(7) {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.sang_29 > div:nth-child(8) {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.sang_29 > div.pre-chorus:nth-child(9) {
+  grid-column: 2;
+  grid-row: 4;
+}
+
+/* Sang 30 - Locked out of heaven */
+.sang_30 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.sang_30 > div:nth-child(2) {
+  grid-column: 1;
+}
+
+.sang_30 > div:nth-child(3) {
+  grid-column: 1;
+}
+
+.sang_30 > div:nth-child(4) {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.sang_30 > div:nth-child(6) {
+  grid-column: 2;
+  grid-row: 2;
+  margin-top: 60px;
+}
+
+.sang_30 > div:nth-child(7) {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.sang_30 > div:nth-child(5) {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.sang_30 > div:nth-child(8) {
+  grid-column: 2;
+  grid-row: 3;
+  margin-top: 170px;
+}
+
+/* Sang 31 - What's going on */
+.sang_31 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.sang_31 > div:nth-child(2) {
+  grid-column: 1;
+}
+
+.sang_31 > div.pre-chorus:nth-child(3) {
+  grid-column: 1;
+}
+
+.sang_31 > div:nth-child(4) {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.sang_31 > div:nth-child(5) {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.sang_31 > div:nth-child(6) {
+  grid-column: 2;
+  grid-row: 2;
+  margin-top: 60px;
+}
+
+.sang_31 > div:nth-child(7) {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.sang_31 > div:nth-child(8) {
+  grid-column: 2;
+  grid-row: 3;
+  margin-top: 60px;
+}
+
+/* sang 32 - i'm so excited */
+.sang_32 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.sang_32 > div:nth-child(2) {
+  grid-column: 1;
+}
+
+.sang_32 > div:nth-child(3) {
+  grid-column: 1;
+}
+
+.sang_32 > div:nth-child(4) {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.sang_32 > div:nth-child(5) {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.sang_32 > div:nth-child(6) {
+  grid-column: 2;
+  grid-row: 2;
+  margin-top: 60px;
+}
+
+/* Sang 33 - Jeg tager imod */
+.sang_33 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.sang_33 > div.chorus:nth-child(2) {
+  grid-column: 1;
+}
+
+.sang_33 > div:nth-child(3) {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.sang_33 > div:nth-child(4) {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.sang_33 > div:nth-child(5) {
+  grid-column: 2;
+  grid-row: 2;
+  margin-top: 60px;
+}
+
+.sang_33 > div:nth-child(6) {
+  grid-column: 2;
+  grid-row: 2;
+  margin-top: 120px;
+}
